@@ -52,7 +52,7 @@ export default {
 "General": {
 "Customer_Name": "Test",
 "Delivery_Address": "",
-"Delivery_Address_2": "City, ZIP, State",
+"Delivery_Address_2": "City, State, ZIP",
 "Day": "",
 "Date": "mm/dd/yy",
 "Job_Number": "",
@@ -150,7 +150,7 @@ export default {
 "label": "Delivery City, State, ZIP",
 "order": 0,
 "defaultValue": "City, State, ZIP",
-"value": "City, ZIP, State",
+"value": "City, State, ZIP",
 "className": "col-md-12",
 "readonly": false,
 "labelBold": true,
@@ -455,7 +455,7 @@ export default {
 "type": "checkbox",
 "name": "control_checkbox_269475",
 "fieldName": "Contract",
-"label": "Contract",
+"label": "Contract ",
 "order": 0,
 "defaultValue": "",
 "value": "",
@@ -487,7 +487,7 @@ export default {
 "order": 0,
 "defaultValue": "",
 "value": "",
-"className": "col-md-2",
+"className": "col-md-1",
 "readonly": false,
 "labelBold": true,
 "labelItalic": false,
@@ -522,7 +522,7 @@ export default {
 "order": 0,
 "defaultValue": "",
 "value": "",
-"className": "col-md-6",
+"className": "col-md-4",
 "readonly": false,
 "labelBold": true,
 "labelItalic": false,
@@ -604,10 +604,17 @@ export default {
 ],
 "ajaxDataUrl": "",
 "isChecked": false
+}
+]
 },
 {
+"name": "section_257133_row_415130",
+"label": "",
+"order": 0,
+"controls": [
+{
 "type": "checkbox",
-"name": "control_checkbox_866034",
+"name": "control_checkbox_560413",
 "fieldName": "Workday4to10",
 "label": "4Days_10Hrs",
 "order": 0,
@@ -667,10 +674,17 @@ export default {
 ],
 "ajaxDataUrl": "",
 "isChecked": false
+}
+]
 },
 {
+"name": "section_257133_row_710515",
+"label": "",
+"order": 0,
+"controls": [
+{
 "type": "checkbox",
-"name": "control_checkbox_730886",
+"name": "control_checkbox_929986",
 "fieldName": "NonPLA",
 "label": "Non PLA",
 "order": 0,
@@ -695,10 +709,17 @@ export default {
 ],
 "ajaxDataUrl": "",
 "isChecked": false
+}
+]
 },
 {
+"name": "section_257133_row_941825",
+"label": "",
+"order": 0,
+"controls": [
+{
 "type": "checkbox",
-"name": "control_checkbox_493789",
+"name": "control_checkbox_969419",
 "fieldName": "Prevailing_Wage",
 "label": "Prevailing Wage",
 "order": 0,
@@ -736,18 +757,17 @@ export default {
 }
 ],
 "layout": "tab",
-"_uniqueId": 0.12086522370535024,
+"_uniqueId": 0.6933784727452683,
 "section_580763": {
 },
 "General": {
 "control_text_156501": "",
 "Customer_Name": "Test",
 "control_text_838661": "",
-
 "Delivery_Address": "",
 "control_text_141454": "",
 "control_text_385883": "",
-"Delivery_Address_2": "City, ZIP, State",
+"Delivery_Address_2": "City, State, ZIP",
 "Day": "",
 "control_datepicker_74610": "",
 "Date": "mm/dd/yy",
@@ -796,7 +816,14 @@ export default {
 "control_checkbox_730886": "",
 "NonPLA": "",
 "control_checkbox_493789": "",
-"Prevailing_Wage": ""
+"Prevailing_Wage": "",
+"Contract ": "",
+"Contract ": "",
+"Contract ": "",
+" Contract": "",
+"control_checkbox_969419": "",
+"control_checkbox_929986": "",
+"control_checkbox_560413": ""
 }
 },
 
